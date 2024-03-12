@@ -1,5 +1,8 @@
 package me.whiteship.java8to11.section1;
 
+/**
+ * 함수형 인터페이스와 람다 표현식 소개
+ */
 public class App {
     public static void main(String[] args) {
         /* 익명 내부 클래스 */
