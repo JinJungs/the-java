@@ -1,4 +1,4 @@
-package me.whiteship.java8to11;
+package me.whiteship.java8to11.section2;
 
 public class DefaultFoo implements Foo {
 
