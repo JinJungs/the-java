@@ -21,12 +21,16 @@ public class App {
         thread.start();
 
         System.out.println("Hello: " + Thread.currentThread().getName());
+
         /* (1) sleep */
         // Thread.sleep(3000L);
         /* (2) interrupt */
         // thread.interrupt();
         /* (3) join - 기다림 */
         thread.join();
+        System.out.println(thread + " is finished!");
+
+        // 사실상 프로그래머가 일일히 쓰레드를 관리하는 경우는 거의 없다.
 
         /* Thread의 순서는 보장하지 못한다 */
         // Hello
