@@ -1,4 +1,4 @@
-package me.whiteship.java8to11.section7;
+package me.whiteship.java8to11.section7.annotation;
 
 import java.util.Arrays;
 
